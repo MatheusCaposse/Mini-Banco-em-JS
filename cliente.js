@@ -74,7 +74,7 @@
         } else if(valor===0){
             console.log("Você nao pode realizar saques de valores igual a R$0") 
         }else {
-            this.atualizarSaldo(-   valor)
+            this.atualizarSaldo(-valor)
             console.log(`Saque no valor de R$${valor} foi realizado com sucesso, agora seu saldo é R$${this.#saldo}`)
         }
     }
