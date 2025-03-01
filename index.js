@@ -3,7 +3,7 @@ import Gerente from "./gerente.js"
 
 const Matheus = new cliente("Matheus Caposse", "matheus@gmail.com", "20-02-2006")
 
-const Victoria = new cliente("Victoria Leite", "victoria@gmail.com", "02-09-2005" )
+const Fernando = new cliente("Fernando", "Fernando@gmail.com", "02-09-2005" )
 
 const EduardoGerente = new Gerente("Eduardo Batista", "eduardo@gmail.com", "27-08-1992")
 
