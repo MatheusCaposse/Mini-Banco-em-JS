@@ -67,12 +67,12 @@
     }
 
     saque(valor){
-        if(valor===0){
-            console.log("Você nao pode realizar saques de valores igual a R$0")
+        if (this.status!=='ativada'){
+            console.log("Sua conta esta desativada e não pode fazer isso")
         } else if(valor>this.#saldo){
             console.log(`Você não pode realizar saques maiores que o valor presente na conta bancaria`)
-        } else if (this.status!=='ativada'){
-            console.log("Sua conta esta desativada e não pode fazer isso") 
+        } else if(valor===0){
+            console.log("Você nao pode realizar saques de valores igual a R$0") 
         }else {
             this.atualizarSaldo(-   valor)
             console.log(`Saque no valor de R$${valor} foi realizado com sucesso, agora seu saldo é R$${this.#saldo}`)
