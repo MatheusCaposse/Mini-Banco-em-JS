@@ -1,0 +1,15 @@
+Mini Banco em JavaScript
+
+Este projeto foi desenvolvido como uma forma de testar e aplicar meus conhecimentos em JavaScript. A ideia por trás do mini banco é criar um sistema simples de gerenciamento 
+de contas bancárias, com funcionalidades como depósito, saque, transferência e gerenciamento de status de contas.
+
+Através desse projeto, pude praticar conceitos importantes de programação orientada a objetos (POO), como o uso de classes, encapsulamento e herança. Também apliquei boas 
+práticas de codificação e aprendi a trabalhar com getters e setters para proteger dados privados, como o saldo e o status da conta.
+
+Além disso, implementei a validação de operações financeiras, como garantir que depósitos e saques só sejam realizados em contas ativas, e que transferências não ultrapassem o 
+saldo disponível.
+
+O mini banco foi testado no terminal, e o intuito do arquivo index.js é testar as funcionalidades implementadas, como a criação de contas, operações bancárias e a 
+manipulação de status de contas.
+
+Este mini banco foi uma ótima oportunidade para aprofundar meus conhecimentos em JavaScript e aprimorar minhas habilidades de programação.  
